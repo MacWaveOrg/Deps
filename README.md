@@ -24,8 +24,11 @@ https://github.com/MacWaveOrg/Deps/releases/download/libidn2/libidn2%402.3.7.arm
 
 ```
 默认：https://github.com/MacWaveOrg/Deps/releases/download/libidn2/libidn2%402.3.7.arm64.tar.gz
-镜像：https://mirror.example.cn/macwave/deps/libidn2/libidn2%402.3.7.arm64.tar.gz
+镜像：https://mirror.example.cn/MacWave/deps/libidn2/libidn2%402.3.7.arm64.tar.gz
 ```
+
+`MacWave/` 这一层是为了让镜像域名能被多个产品共用（LinuxWave 将来用 `/LinuxWave`），
+所以镜像目录与 `MACWAVE_DEPS_DOMAIN` 的值都带它。
 
 ## 三条规则（与 Bottle 相同）
 
